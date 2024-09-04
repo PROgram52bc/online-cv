@@ -73,6 +73,7 @@ education:
           through research or through the classes I have taken, related to
           verification, compiler, [symbolic execution](https://ieeexplore.ieee.org/document/10172731), etc., which you can read
           more about below.
+
           Selected Courseworks:
             - Compiler
             - Operating Systems
@@ -87,6 +88,7 @@ education:
           I enjoyed many Computer Science classes offered there and was also
           able to pick up a double minor in Music (Applied Piano) and
           Mathematics.
+
           Selected Courseworks:
             - Data Structures and Algorithm
             - [Computer Graphics](https://github.com/PROgram52bc/COS350_P04_Animation)
@@ -119,9 +121,7 @@ experiences:
 projects:
     title: Projects
     intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+        Below are a snippet of projects that I am most proud of:
     assignments:
       - title: Symbolic Execution Compiler
         link: "https://ieeexplore.ieee.org/document/10172731"
@@ -140,7 +140,7 @@ publications:
     papers:
       - title: "Compiling Parallel Symbolic Execution with Continuations"
         link: "https://ieeexplore.ieee.org/document/10172731"
-        authors: Wei, G., Jia, S., Gao, R., __Deng, H.__, Tan, S., Bračevac, O. and Rompf, T.
+        authors: Wei, G., Jia, S., Gao, R., Deng, H., Tan, S., Bračevac, O. and Rompf, T.
         conference: "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE) (May 2023)"
 
 skills:
