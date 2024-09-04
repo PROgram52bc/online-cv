@@ -17,7 +17,7 @@ sidebar:
     phone: 765-506-6716
     timezone: America/Indianapolis # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
     citizenship:
-    website: https://example.com/ # Include the full website URL, including "http://" or "https://".
+    website: # Include the full website URL, including "http://" or "https://".
     linkedin: haotian-deng-89866b200
     xing:
     github: PROgram52bc
