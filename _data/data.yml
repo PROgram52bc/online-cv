@@ -57,37 +57,49 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+        I am a Ph.D. student in computer science at Purdue University. I am
+        excited to explore how programming languages research can be applied to
+        various domains in people's daily life.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Ph.D. in Computer Science
+        university: Purdue University
+        time: 2021 - 2026 (Expected)
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          My Research primarily focuses on Programming Languages and Type
+          Systems Verification. I worked on a variety of projects either
+          through research or through the classes I have taken, related to
+          verification, compiler, symbolic execution, etc., which you can read
+          more about below.
+          Selected Courseworks:
+            - Compiler
+            - Operating Systems
+            - Theory of Computation
+            - Programming Languages
+            - Reasoning about Programs
+      - degree: BSc in Computer Science (with Minors in Music and Mathematics)
+        university: Taylor University
+        time: 2017 - 2021
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          I have spent four wonderful years at Taylor University, during which
+          I enjoyed many Computer Science classes offered there and was also
+          able to pick up a double minor in Music (Applied Piano) and
+          Mathematics.
+          Selected Courseworks:
+            - Data Structures and Algorithm
+            - Computer Graphics
+            - Data Communication
+            - Computer Architecture
+            - Operating Systems
+            - Computer Security (I and II)
+            - Language Structure
+            - Natural Language Processing
+            - Machine Learning
+            - Calculus (I, II, and III)
+            - Mathematical Statistics
+            - Linear Algebra
 
 experiences:
     title: Experiences
