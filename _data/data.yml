@@ -71,8 +71,9 @@ education:
           My Research primarily focuses on Programming Languages and Type
           Systems Verification. I worked on a variety of projects either
           through research or through the classes I have taken, related to
-          verification, compiler, [symbolic execution](https://ieeexplore.ieee.org/document/10172731), etc., which you can read
-          more about below.
+          verification, compiler, [symbolic
+          execution](https://ieeexplore.ieee.org/document/10172731), etc.,
+          which you can read more about below.
 
           Selected Courseworks:
             - Compiler
@@ -90,6 +91,7 @@ education:
           Mathematics.
 
           Selected Courseworks:
+            - Web Programming (Frontend and Backend)
             - Data Structures and Algorithm
             - [Computer Graphics](https://github.com/PROgram52bc/COS350_P04_Animation)
             - Data Communication
@@ -106,26 +108,60 @@ education:
 experiences:
     title: Experiences
     info:
-      - role: Graduate Teaching Assistant
-        time: September 2022 - Present
-        company: Purdue University Computer Science Department
+      - role: Monitoring Web Application Architect
+        company: Taylor University Cyber Security Department
+        time: December 2019 - May 2021
         details: |
-            I have worked as a teaching assistant for more over two years. The
-            courses I teach primarily uses C/C++ as the underlying language,
-            and I enjoyed interacting with students, guiding students to learn
-            more through the lab sessions.
+            I architected and deployed a full-stack web application using
+            Flask, MySQL, PostgreSQL, SQLite, and Python, with Nginx as the
+            web server. The web application interfaces with the Linux
+            Container API using python libraries.  During a live competition,
+            I troubleshot and patched issues in the monitoring website,
+            maintaining high availability and reducing downtime.
+      - role: Corpus Christi Internship
+        time: May 2020 - August 2020
+        company: Taylor University Missions Computing
+        details: |
+            I continued working on the [Corpus
+            Chrsti](https://github.com/corpus-christi/corpus-christi) project
+            with my mentor, implementing support for structured leadership
+            hierarchy with cycle detection.
+      - role: Missions Computing Trip
+        company: Taylor University Missions Computing
+        time: January 2019 - February 2019 (Cuenca, Ecuador)
+        details: |
+            A J-term trip to Cuenca Ecuador with 30+ Computer Science students
+            to develop a church management software ([Corpus
+            Chrsti](https://github.com/corpus-christi/corpus-christi)). I
+            mainly worked as a database developer.
+      - role: Web Programmer
+        company: Taylor University Marketing Department
+        time: April 2018 - May 2019
+        details: |
+            I worked on the University website content management system (CMS)
+            and the improvement of asthetics. 
 
-            Courses taught:
-            - Operating Systems
-            - Systems Programming
+      # - role: Graduate Teaching Assistant
+      #   time: September 2022 - Present
+      #   company: Purdue University Computer Science Department
+      #   details: |
+      #       I have worked as a teaching assistant for more over two years. The
+      #       courses I teach primarily uses C/C++ as the underlying language,
+      #       and I enjoyed interacting with students, guiding students to learn
+      #       more through the lab sessions.
+
+      #       Courses taught:
+      #       - Operating Systems
+      #       - Systems Programming
+
 projects:
     title: Projects
     intro: >
         Below are a snippet of projects that I am most proud of:
     assignments:
-      - title: Symbolic Execution Compiler
-        link: "https://ieeexplore.ieee.org/document/10172731"
-        tagline: "Adding external library support for the symbolic execution engine by pre-compiling a subset of the C Standard Library"
+      # - title: Symbolic Execution Compiler
+      #   link: "https://ieeexplore.ieee.org/document/10172731"
+      #   tagline: "Adding external library support for the symbolic execution engine by pre-compiling a subset of the C Standard Library"
 
       - title: Parallel Scene Generator via Ray Tracing
         link: "https://github.com/PROgram52bc/COS350_P04_Animation"
@@ -147,6 +183,14 @@ skills:
     title: Skills &amp; Proficiency
 
     toolset:
+      - name: Javascript
+        level: 95%
+
+      - name: Vue.js
+        level: 95%
+
+      - name: HTML5 & CSS
+        level: 90%
       - name: C/C++
         level: 98%
 
@@ -156,17 +200,8 @@ skills:
       - name: Git
         level: 98%
 
-      - name: Coq
-        level: 98%
-
-      - name: Javascript
-        level: 95%
-
-      - name: Vue.js
-        level: 95%
-
-      - name: HTML5 & CSS
-        level: 90%
+      # - name: Coq
+      #   level: 98%
 
 
 footer: >
