@@ -57,9 +57,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-        I am a Ph.D. student in computer science at Purdue University. I am
-        excited to explore how programming languages research can be applied to
-        various domains in people's daily life.
+        Ph.D. Candidate in Computer Sciences seeking a Summer 2025 internship,
+        with expected graduation in Spring 2026. Open to return offer
+        post-graduation if mutually beneficial.
 
 education:
     title: Education
@@ -141,27 +141,27 @@ experiences:
             I worked on the University website content management system (CMS)
             and the improvement of asthetics. 
 
-      # - role: Graduate Teaching Assistant
-      #   time: September 2022 - Present
-      #   company: Purdue University Computer Science Department
-      #   details: |
-      #       I have worked as a teaching assistant for more over two years. The
-      #       courses I teach primarily uses C/C++ as the underlying language,
-      #       and I enjoyed interacting with students, guiding students to learn
-      #       more through the lab sessions.
+      - role: Graduate Teaching Assistant
+        time: September 2022 - Present
+        company: Purdue University Computer Science Department
+        details: |
+            I have worked as a teaching assistant for more over two years. The
+            courses I teach primarily uses C/C++ as the underlying language,
+            and I enjoyed interacting with students, guiding students to learn
+            more through the lab sessions.
 
-      #       Courses taught:
-      #       - Operating Systems
-      #       - Systems Programming
+            Courses taught:
+            - Operating Systems
+            - Systems Programming
 
 projects:
     title: Projects
     intro: >
         Below are a snippet of projects that I am most proud of:
     assignments:
-      # - title: Symbolic Execution Compiler
-      #   link: "https://ieeexplore.ieee.org/document/10172731"
-      #   tagline: "Adding external library support for the symbolic execution engine by pre-compiling a subset of the C Standard Library"
+      - title: Symbolic Execution Compiler
+        link: "https://ieeexplore.ieee.org/document/10172731"
+        tagline: "Adding external library support for the symbolic execution engine by pre-compiling a subset of the C Standard Library"
 
       - title: Parallel Scene Generator via Ray Tracing
         link: "https://github.com/PROgram52bc/COS350_P04_Animation"
@@ -174,6 +174,9 @@ projects:
 publications:
     title: Publications
     papers:
+      - title: "Circular Reachability Tracking via Dual-component Reference Type (In submission)"
+        authors: Deng, H., He, S., and Rompf, T.
+        conference: ""
       - title: "Compiling Parallel Symbolic Execution with Continuations"
         link: "https://ieeexplore.ieee.org/document/10172731"
         authors: Wei, G., Jia, S., Gao, R., Deng, H., Tan, S., Bračevac, O. and Rompf, T.
@@ -200,8 +203,8 @@ skills:
       - name: Git
         level: 98%
 
-      # - name: Coq
-      #   level: 98%
+      - name: Coq
+        level: 98%
 
 
 footer: >
