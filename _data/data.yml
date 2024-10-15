@@ -9,7 +9,7 @@ sidebar:
 
     # Profile information
     name: Haotian Deng
-    tagline: Ph.D. student in Computer Science
+    tagline: Ph.D. candidate in Computer Science
     avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -67,13 +67,11 @@ education:
       - degree: Ph.D. in Computer Science
         university: Purdue University
         time: 2021 - 2026 (Expected)
-        details: |
-          My Research primarily focuses on Programming Languages and Type
-          Systems Verification. I worked on a variety of projects either
-          through research or through the classes I have taken, related to
-          verification, compiler, [symbolic
-          execution](https://ieeexplore.ieee.org/document/10172731), etc.,
-          which you can read more about below.
+        details: | My Research primarily focuses on Programming Languages and Type
+          Systems Verification. I worked on a variety of projects through both
+          my research in Reachability Types and [Symbolic
+          Execution](https://ieeexplore.ieee.org/document/10172731), as well
+          and classes I have taken, related to verification, compiler, etc.
 
           Selected Courseworks:
             - Compiler
