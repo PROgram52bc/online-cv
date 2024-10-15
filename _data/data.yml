@@ -67,7 +67,8 @@ education:
       - degree: Ph.D. in Computer Science
         university: Purdue University
         time: 2021 - 2026 (Expected)
-        details: | My Research primarily focuses on Programming Languages and Type
+        details: | 
+          My Research primarily focuses on Programming Languages and Type
           Systems Verification. I worked on a variety of projects through both
           my research in Reachability Types and [Symbolic
           Execution](https://ieeexplore.ieee.org/document/10172731), as well
