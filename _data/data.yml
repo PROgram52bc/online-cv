@@ -61,6 +61,17 @@ career-profile:
         with expected graduation in Spring 2026. Open to return offer
         post-graduation if mutually beneficial.
 
+publications:
+    title: Publications
+    papers:
+      - title: "Circular Reachability Tracking via Dual-component Reference Type (In Submission to PLDI 2024)"
+        authors: Deng, H., He, S., and Rompf, T.
+        conference: ""
+      - title: "Compiling Parallel Symbolic Execution with Continuations"
+        link: "https://ieeexplore.ieee.org/document/10172731"
+        authors: Wei, G., Jia, S., Gao, R., Deng, H., Tan, S., Bračevac, O. and Rompf, T.
+        conference: "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE) (May 2023)"
+
 education:
     title: Education
     info:
@@ -169,17 +180,6 @@ projects:
       - title: A Domain Specific Language for Calendar Events
         link: "https://github.com/PROgram52bc/COS382_PXX_Simple_Calendar_Language"
         tagline: "A domain specific language compiler to convert calendar events from human readable textual format into the standard iCalendar format"
-
-publications:
-    title: Publications
-    papers:
-      - title: "Circular Reachability Tracking via Dual-component Reference Type (In submission)"
-        authors: Deng, H., He, S., and Rompf, T.
-        conference: ""
-      - title: "Compiling Parallel Symbolic Execution with Continuations"
-        link: "https://ieeexplore.ieee.org/document/10172731"
-        authors: Wei, G., Jia, S., Gao, R., Deng, H., Tan, S., Bračevac, O. and Rompf, T.
-        conference: "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE) (May 2023)"
 
 skills:
     title: Skills &amp; Proficiency
