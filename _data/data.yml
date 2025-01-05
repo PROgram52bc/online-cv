@@ -57,9 +57,34 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-        Ph.D. Candidate in Computer Sciences seeking a Summer 2025 internship,
-        with expected graduation in Spring 2026. Open to return offer
-        post-graduation if mutually beneficial.
+        I am a Ph.D. Candidate in Computer Science with expertise in
+        Programming Languages, Theorem Proving, and Machine Learning Compilers,
+        seeking a Summer 2025 internship to contribute cutting-edge research
+        and engineering skills to impactful projects. Expected graduation in
+        Spring 2026, with an interest in exploring long-term opportunities to
+        drive innovation post-graduation.
+
+projects:
+    title: Projects
+    intro: >
+        Below are a snippet of projects that I am most proud of:
+    assignments:
+      - title: Machine Learning Compiler
+        link: "https://openreview.net/forum?id=tbbId8u7nP"
+        tagline: "Extending the work on Tracr, I mechanize a prototype compiler based on linear logic and transformer neural network"
+
+      - title: Symbolic Execution Compiler
+        link: "https://ieeexplore.ieee.org/document/10172731"
+        tagline: "Adding external library support for the symbolic execution engine by pre-compiling a subset of the C Standard Library"
+
+      - title: Parallel Scene Generator via Ray Tracing
+        link: "https://github.com/PROgram52bc/COS350_P04_Animation"
+        tagline: "A mini framework facilitating ray tracing of scenes composed with geometric objects"
+
+      - title: A Domain Specific Language for Calendar Events
+        link: "https://github.com/PROgram52bc/COS382_PXX_Simple_Calendar_Language"
+        tagline: "A domain specific language compiler to convert calendar events from human readable textual format into the standard iCalendar format"
+
 
 publications:
     title: Publications
@@ -191,23 +216,6 @@ experiences:
             Courses taught:
             - Operating Systems
             - Systems Programming
-
-projects:
-    title: Projects
-    intro: >
-        Below are a snippet of projects that I am most proud of:
-    assignments:
-      - title: Symbolic Execution Compiler
-        link: "https://ieeexplore.ieee.org/document/10172731"
-        tagline: "Adding external library support for the symbolic execution engine by pre-compiling a subset of the C Standard Library"
-
-      - title: Parallel Scene Generator via Ray Tracing
-        link: "https://github.com/PROgram52bc/COS350_P04_Animation"
-        tagline: "A mini framework facilitating ray tracing of scenes composed with geometric objects"
-
-      - title: A Domain Specific Language for Calendar Events
-        link: "https://github.com/PROgram52bc/COS382_PXX_Simple_Calendar_Language"
-        tagline: "A domain specific language compiler to convert calendar events from human readable textual format into the standard iCalendar format"
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
