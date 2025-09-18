@@ -3,219 +3,172 @@
 #
 
 sidebar:
-    position: left # position of the sidebar : left or right
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: False # set to False if you want education in main section instead of in sidebar
+  position: left
+  about: false
+  education: false
 
-    # Profile information
-    name: Haotian Deng
-    tagline: Ph.D. candidate in Computer Science
-    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Haotian Deng
+  tagline: PL/Verification • ML Compilers • Systems (Seeking Summer 2026 Internship)
+  avatar: profile.jpeg
 
-    # Sidebar links
-    email: deng254@purdue.edu
-    phone: 765-506-6716
-    timezone: America/Indianapolis # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-    citizenship:
-    website: # Include the full website URL, including "http://" or "https://".
-    linkedin: haotian-deng-89866b200
-    xing:
-    github: PROgram52bc
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter:
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    mastodon:  # Please include your full Mastodon link here.
-    hackerrank: # Please provide your HackerRank username.
-    leetcode: # Please provide your LeetCode username.
-    pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  # Sidebar links
+  email: deng254@purdue.edu
+  phone: 765-506-6716
+  timezone: America/Indianapolis
+  citizenship:
+  website:
+  linkedin: haotian-deng-89866b200
+  xing:
+  github: PROgram52bc
+  telegram:
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow:
+  codewars:
+  goodreads:
+  mastodon:
+  hackerrank:
+  leetcode:
+  pdf:   # e.g., /assets/Haotian_Deng_Resume.pdf
 
-    languages:
-      title: Languages
-      info:
-        - idiom: Mandarin
-          level: Native
+  languages:
+    title: Languages
+    info:
+      - idiom: Mandarin
+        level: Native
+      - idiom: English
+        level: Professional
 
-        - idiom: English
-          level: Professional
-
-    interests:
-      title: Interests
-      info:
-        - item: Running
-          link:
-
-        - item: Piano
-          link:
-
-        - item: Cooking
-          link:
+  interests:
+    title: Interests
+    info:
+      - item: Running
+        link:
+      - item: Piano
+        link:
+      - item: Cooking
+        link:
 
 career-profile:
-    title: Career Profile
-    summary: |
-        I am a Ph.D. Candidate in Computer Science with expertise in
-        Programming Languages, Theorem Proving, and Machine Learning Compilers,
-        seeking a Summer 2025 internship to contribute cutting-edge research
-        and engineering skills to impactful projects. Expected graduation in
-        Spring 2026, with an interest in exploring long-term opportunities to
-        drive innovation post-graduation.
+  title: Career Profile
+  summary: |
+    Ph.D. candidate in Computer Science specializing in programming languages,
+    theorem proving, and ML compilers. I build verified tools and performant
+    systems at the PL × Systems boundary. Actively seeking a Summer 2026
+    Research/SWE Internship (PL/Verification, Compilers, ML Systems). Expected
+    graduation: Fall 2026.
 
 projects:
-    title: Projects
-    intro: >
-        Below are a snippet of projects that I am most proud of:
-    assignments:
-      - title: Machine Learning Compiler
-        link: "https://openreview.net/forum?id=tbbId8u7nP"
-        tagline: "Extending the work on Tracr, I mechanize a prototype compiler based on linear logic and transformer neural network"
+  title: Projects
+  intro: >
+    Selected projects with research/engineering impact:
+  assignments:
+    - title: Machine Learning Compiler
+      link: "https://openreview.net/forum?id=tbbId8u7nP"
+      tagline: "Designed & mechanized a prototype compiler for transformer-style programs with linear-logic semantics; demonstrated verified transformations and executable artifacts."
 
-      - title: Symbolic Execution Compiler
-        link: "https://ieeexplore.ieee.org/document/10172731"
-        tagline: "Adding external library support for the symbolic execution engine by pre-compiling a subset of the C Standard Library"
+    - title: Symbolic Execution Compiler
+      link: "https://ieeexplore.ieee.org/document/10172731"
+      tagline: "Extended a continuation-based symbolic executor with external library support by precompiling a libc subset; enabled scalable analyses across real codebases."
 
-      - title: Parallel Scene Generator via Ray Tracing
-        link: "https://github.com/PROgram52bc/COS350_P04_Animation"
-        tagline: "A mini framework facilitating ray tracing of scenes composed with geometric objects"
+    - title: Parallel Scene Generator via Ray Tracing
+      link: "https://github.com/PROgram52bc/COS350_P04_Animation"
+      tagline: "Built a C++ parallel ray tracer with a modular scene API; accelerated rendering of geometric compositions and animations."
 
-      - title: A Domain Specific Language for Calendar Events
-        link: "https://github.com/PROgram52bc/COS382_PXX_Simple_Calendar_Language"
-        tagline: "A domain specific language compiler to convert calendar events from human readable textual format into the standard iCalendar format"
-
+    - title: A Domain Specific Language for Calendar Events
+      link: "https://github.com/PROgram52bc/COS382_PXX_Simple_Calendar_Language"
+      tagline: "Implemented a DSL-to-iCalendar compiler; specified grammar, parser, and emitter to translate human-readable events to standard ICS."
 
 publications:
-    title: Publications
-    papers:
-      - title: "Circular Reachability Tracking via Dual-component Reference Type (In Submission to PLDI 2024)"
-        authors: Deng, H., He, S., and Rompf, T.
-        conference: ""
-      - title: "Compiling Parallel Symbolic Execution with Continuations"
-        link: "https://ieeexplore.ieee.org/document/10172731"
-        authors: Wei, G., Jia, S., Gao, R., Deng, H., Tan, S., Bračevac, O. and Rompf, T.
-        conference: "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE) (May 2023)"
+  title: Publications
+  papers:
+    - title: "Circular Reachability Tracking via Dual-component Reference Types (under submission)"
+      authors: Deng, H., He, S., and Rompf, T.
+      conference: ""
+    - title: "Compiling Parallel Symbolic Execution with Continuations"
+      link: "https://ieeexplore.ieee.org/document/10172731"
+      authors: Wei, G., Jia, S., Gao, R., Deng, H., Tan, S., Bračevac, O. and Rompf, T.
+      conference: "2023 IEEE/ACM 45th International Conference on Software Engineering (ICSE), May 2023"
 
 skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Coq/Lean
-        level: 95%
-
-      - name: C/C++
-        level: 95%
-
-      - name: Python
-        level: 98%
-
-      - name: Bash
-        level: 98%
-
-      - name: Git
-        level: 98%
-
-      - name: Javascript
-        level: 95%
-
-      - name: Vue.js
-        level: 95%
-
-      - name: HTML5 & CSS
-        level: 90%
-
-education:
-    title: Education
-    info:
-      - degree: Ph.D. in Computer Science
-        university: Purdue University
-        time: 2021 - 2026 (Expected)
-        details: | 
-          My Research primarily focuses on Programming Languages and Type
-          Systems Verification. I worked on a variety of projects through both
-          my research in Reachability Types and [Symbolic
-          Execution](https://ieeexplore.ieee.org/document/10172731), as well
-          and classes I have taken, related to verification, compiler, etc.
-
-          Selected Courseworks:
-            - Compiler
-            - Operating Systems
-            - Theory of Computation
-            - Programming Languages
-            - Reasoning about Programs
-      - degree: BSc in Computer Science (with Minors in Music and Mathematics)
-        university: Taylor University
-        time: 2017 - 2021
-        details: |
-          I have spent four wonderful years at Taylor University, during which
-          I enjoyed many Computer Science classes offered there and was also
-          able to pick up a double minor in Music (Applied Piano) and
-          Mathematics.
-
-          Selected Courseworks:
-            - Web Programming (Frontend and Backend)
-            - Data Structures and Algorithm
-            - [Computer Graphics](https://github.com/PROgram52bc/COS350_P04_Animation)
-            - Data Communication
-            - Computer Architecture
-            - Operating Systems
-            - Computer Security (I and II)
-            - [Language Structure](https://github.com/PROgram52bc/COS382_PXX_Simple_Calendar_Language)
-            - Natural Language Processing
-            - Machine Learning
-            - Calculus (I, II, and III)
-            - Mathematical Statistics
-            - Linear Algebra
+  title: Skills & Proficiency
+  toolset:
+    - name: Coq / Lean
+      level: 95%
+    - name: C / C++
+      level: 95%
+    - name: Python
+      level: 98%
+    - name: Bash
+      level: 98%
+    - name: Git
+      level: 98%
+    - name: JavaScript
+      level: 95%
+    - name: Vue.js
+      level: 95%
+    - name: HTML5 & CSS
+      level: 90%
+    - name: PyTorch
+      level: 85%
 
 experiences:
-    title: Experiences
-    info:
-      - role: Monitoring Web Application Architect
-        company: Taylor University Cyber Security Department
-        time: December 2019 - May 2021
-        details: |
-            I architected and deployed a full-stack web application using
-            Flask, MySQL, PostgreSQL, SQLite, and Python, with Nginx as the
-            web server. The web application interfaces with the Linux
-            Container API using python libraries.  During a live competition,
-            I troubleshot and patched issues in the monitoring website,
-            maintaining high availability and reducing downtime.
-      - role: Corpus Christi Internship
-        time: May 2020 - August 2020
-        company: Taylor University Missions Computing
-        details: |
-            I continued working on the [Corpus
-            Chrsti](https://github.com/corpus-christi/corpus-christi) project
-            with my mentor, implementing support for structured leadership
-            hierarchy with cycle detection.
-      - role: Missions Computing Trip
-        company: Taylor University Missions Computing
-        time: January 2019 - February 2019 (Cuenca, Ecuador)
-        details: |
-            A J-term trip to Cuenca Ecuador with 30+ Computer Science students
-            to develop a church management software ([Corpus
-            Chrsti](https://github.com/corpus-christi/corpus-christi)). I
-            mainly worked as a database developer.
-      - role: Web Programmer
-        company: Taylor University Marketing Department
-        time: April 2018 - May 2019
-        details: |
-            I worked on the University website content management system (CMS)
-            and the improvement of asthetics. 
+  title: Experiences
+  info:
+    - role: Web Application Architect (Monitoring)
+      company: Taylor University Cybersecurity Department
+      time: December 2019 – May 2021
+      details: |
+        - Architected and deployed a full-stack monitoring platform (Flask + MySQL/PostgreSQL/SQLite) behind Nginx.
+        - Integrated with Linux container APIs via Python to collect and surface operational telemetry.
+        - Diagnosed and patched production issues during live competitions, maintaining high availability.
 
-      - role: Graduate Teaching Assistant
-        time: September 2022 - Present
-        company: Purdue University Computer Science Department
-        details: |
-            I have worked as a teaching assistant for more over two years. The
-            courses I teach primarily uses C/C++ as the underlying language,
-            and I enjoyed interacting with students, guiding students to learn
-            more through the lab sessions.
+    - role: Software Engineering Intern — Corpus Christi
+      company: Taylor University Missions Computing
+      time: May 2020 – August 2020
+      details: |
+        - Contributed to the open-source Corpus Christi platform, adding hierarchical leadership modeling with cycle detection.
+        - Implemented backend logic and data validations; improved admin workflows.
 
-            Courses taught:
-            - Operating Systems
-            - Systems Programming
+    - role: Software Developer — Missions Computing Trip
+      company: Taylor University Missions Computing
+      time: January 2019 – February 2019 (Cuenca, Ecuador)
+      details: |
+        - Collaborated with a 30+ student team to deliver church management software.
+        - Focused on database schema design, data migration, and performance tuning.
+
+    - role: Web Programmer
+      company: Taylor University Marketing Department
+      time: April 2018 – May 2019
+      details: |
+        - Enhanced CMS components and site aesthetics; shipped UX improvements and content tooling.
+
+    - role: Graduate Teaching Assistant
+      company: Purdue University — Computer Science
+      time: September 2022 – Present
+      details: |
+        - TA for systems-heavy courses (Operating Systems, Systems Programming) with C/C++.
+        - Led labs, mentored students, and created debugging guides and test harnesses.
+
+education:
+  title: Education
+  info:
+    - degree: Ph.D. in Computer Science
+      university: Purdue University
+      time: 2021 – 2026 (Expected)
+      details: |
+        Research: programming languages and type-system verification, with projects in reachability types,
+        symbolic execution, and compilers.
+        Selected Coursework: Compilers, Operating Systems, Programming Languages, Reasoning about Programs, Theory of Computation.
+    - degree: B.Sc. in Computer Science (Minors in Music & Mathematics)
+      university: Taylor University
+      time: 2017 – 2021
+      details: |
+        Selected Coursework: Web Programming, Data Structures & Algorithms, Computer Graphics,
+        Data Communication, Computer Architecture, Operating Systems, Computer Security (I & II),
+        Language Structure, NLP, Machine Learning, Calculus I–III, Statistics, Linear Algebra.
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
