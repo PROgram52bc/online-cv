@@ -84,7 +84,7 @@ projects:
 publications:
   title: Publications
   papers:
-    - title: "Circular Reachability Tracking via Dual-component Reference Types (under submission)"
+    - title: "Circular Reachability Tracking via Dual-component Reference Types (To appear at OOPSLA 2024)"
       authors: Deng, H., He, S., and Rompf, T.
       conference: ""
     - title: "Compiling Parallel Symbolic Execution with Continuations"
@@ -117,6 +117,13 @@ skills:
 experiences:
   title: Experiences
   info:
+    - role: Applied Science Intern — Compilers & Verification
+      company: Amazon
+      time: May 2025 – Aug 2025
+      details: |
+        - Prototyped program transformation passes (procedure-call-elimination and deterministic-to-nondeterministic) for a Boogie-like IR in the Strata framework.
+        - Fully proved semantics-preserving property and correctness of the transformations.
+        - Contributed verified transformation specs and documentation; collaborated with researchers and engineers across teams.
     - role: Web Application Architect (Monitoring)
       company: Taylor University Cybersecurity Department
       time: December 2019 – May 2021
@@ -132,7 +139,7 @@ experiences:
         - Contributed to the open-source Corpus Christi platform, adding hierarchical leadership modeling with cycle detection.
         - Implemented backend logic and data validations; improved admin workflows.
 
-    - role: Software Developer — Missions Computing Trip
+    - role: Software Developer
       company: Taylor University Missions Computing
       time: January 2019 – February 2019 (Cuenca, Ecuador)
       details: |
